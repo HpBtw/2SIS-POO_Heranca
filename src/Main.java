@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Empregado[] empregado = new Empregado[3];
+        Util util = new Util();
 
         empregado[0] = new EmpregadoComissionado(558975, "lu", 100, 10);
         empregado[1] = new EmpregadoHorista(559201, "roxa", 25, 50);
